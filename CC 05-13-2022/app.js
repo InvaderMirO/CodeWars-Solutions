@@ -26,3 +26,8 @@ function doubled(array){
 doubled([])
 doubled([1,2,3])
 console.log(doubled([2,3,4]),[4,6,8])
+
+//codewars solution
+function maps(x){
+    return x.map(e => e * 2);
+  }
