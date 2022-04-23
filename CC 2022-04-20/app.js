@@ -19,16 +19,25 @@
 
 // psuedo
 // make a function that takes in a number
+// function reverseArray(num){
+//     // make number a string and split that bebe then reverse it.
+//     let numArray = num.toString().split('').reverse()
+//     // make array integers again 
+//     return parseInt(numArray) // doesn't work
+//     return Number(numArray) // doesn't work
+//     //and return
+//     console.log(numArray)
+// }
+
+// reverseArray(9876)
+// console.log(reverseArray(455445),[5,4,4,5,5,4])
+// cant do it this way.... need to use map... dumb and sad
+
 function reverseArray(num){
-    // make number a string and split that bebe then reverse it.
     let numArray = num.toString().split('').reverse()
-    // make array integers again 
-    return parseInt(numArray) // doesn't work
-    return Number(numArray) // doesn't work
-    //and return
-    console.log(numArray)
+    return numArray.map(e=>parseInt(e))
 }
 
 reverseArray(9876)
 console.log(reverseArray(455445),[5,4,4,5,5,4])
-// cant do it this way.... need to use map...
+
