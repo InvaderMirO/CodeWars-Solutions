@@ -41,3 +41,4 @@ function reverseArray(num){
 reverseArray(9876)
 console.log(reverseArray(455445),[5,4,4,5,5,4])
 
+// just needed to map thru each element and make them a number
