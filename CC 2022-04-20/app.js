@@ -31,6 +31,7 @@
 
 // reverseArray(9876)
 // console.log(reverseArray(455445),[5,4,4,5,5,4])
+
 // cant do it this way.... need to use map... dumb and sad
 
 function reverseArray(num){
@@ -40,5 +41,16 @@ function reverseArray(num){
 
 reverseArray(9876)
 console.log(reverseArray(455445),[5,4,4,5,5,4])
-
 // just needed to map thru each element and make them a number
+
+
+//solution submitted to codewars
+function digitize(n) {
+    let a = n.toString().split('').reverse()
+    return a.map(e=>parseInt(e))
+}
+
+// what i should have figured out... lol
+function digitize(n) {
+    return n.toString().split("").reverse().map(Number);
+  }
