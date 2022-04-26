@@ -53,4 +53,20 @@ function digitize(n) {
 // what i should have figured out... lol
 function digitize(n) {
     return n.toString().split("").reverse().map(Number);
-  }
+}
+
+// additional solutions
+// string solution
+function digitize(n) {
+    return String(n).split('').map(Number).reverse()
+}
+
+//no use of .map
+const digitize = (x) => {
+    x = `${x}`.split('').reverse();
+    let a = []
+    for(let i = 0; i < x.length; i++){
+      a.push(+x[i])
+    }
+    return a
+}
