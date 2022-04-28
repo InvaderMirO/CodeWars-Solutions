@@ -5,8 +5,7 @@
 
 
 // take in params for number of repetitions and string.
-// loop the number of reptititions and return string each interation.
+// return repeat function on string 
 function repeatStr (n, s) {
-    
-    return '';
-  }
+    return s.repeat(n)
+}
