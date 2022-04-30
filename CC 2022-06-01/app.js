@@ -12,3 +12,7 @@ function repeatStr (n, s) {
 }
 
 // solution successful
+
+
+// refactor
+repeatStr = (n, s) => s.repeat(n)
