@@ -7,8 +7,9 @@
 // You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 // need to sort array and return lowest int which will also include negatives.
+// returning math.min function on the array.
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    
+    return Math.min(args)
   }
 }
