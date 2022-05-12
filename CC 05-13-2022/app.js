@@ -16,8 +16,13 @@
 // map through the array and multiply each element by 2 and return
 
 function doubled(array){
+    if(array === undefined || array.length === 0){  // created case to check for empty or undefined arrays
+        console.log('Array is invalid')
+    }
     return array.map(element=>element*2);
 }
 
+//tests
+doubled([])
 doubled([1,2,3])
 console.log(doubled([2,3,4]),[4,6,8])
