@@ -9,3 +9,9 @@
 // "1405" --> 1405
 // "-7" --> -7
 
+
+// take string entered as str arguement and return wraped in Number method
+const stringToNumber = function(str){
+    // put your code here
+    return null;
+  }
