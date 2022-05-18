@@ -13,5 +13,4 @@
 // take string entered as str arguement and return wraped in Number method
 const stringToNumber = function(str){
     return Number(str)
-    return null;
   }
