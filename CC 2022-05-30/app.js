@@ -19,3 +19,6 @@ const stringToNumber = function(str){
 var stringToNumber = function(str){
     return +str;
 }
+
+// Refactor 2
+const stringToNumber = str => Number(str)
