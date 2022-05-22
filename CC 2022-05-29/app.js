@@ -6,3 +6,7 @@
 // 123 --> "123"
 // 999 --> "999"
 
+// return num argument as a string by enclosing in string method
+function numberToString(num) {
+
+  }
