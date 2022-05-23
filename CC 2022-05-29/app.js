@@ -8,5 +8,5 @@
 
 // return num argument as a string by enclosing in string method
 function numberToString(num) {
-
+    return String(num)
   }
