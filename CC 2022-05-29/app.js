@@ -11,4 +11,7 @@ function numberToString(num) {
     return String(num)
 }
 
-
+// refactor 1
+function numberToString(num) {
+    return ''+num;
+}
