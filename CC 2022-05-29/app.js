@@ -15,3 +15,8 @@ function numberToString(num) {
 function numberToString(num) {
     return ''+num;
 }
+
+// refactor 2
+function numberToString(num) {
+    return num.toString();
+}
