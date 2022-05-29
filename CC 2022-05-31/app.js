@@ -3,5 +3,5 @@
 
 // use string literal in order to insert name arguement into the sentence
 function greet(name){
-    //your code here
-  }
+    return `Hello, ${name} how are you doing today?`
+}
