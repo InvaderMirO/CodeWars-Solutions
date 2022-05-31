@@ -5,3 +5,6 @@
 function greet(name){
     return `Hello, ${name} how are you doing today?`  //insert arg into string using ${}
 }
+
+// Refactor
+const greet = name => `Hello, ${name} how are you doing today?`;
